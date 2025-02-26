@@ -1,20 +1,22 @@
 package Entities;
 
 public class Professor extends Pessoa{
-    private int Id_Professor;
-    private String Materia;
+    private int id_Professor;
+    private String materia;
 
+    // Constructor
     public Professor(String nome, int idade, int id_Professor, String materia) {
         super(nome, idade);
-        Id_Professor = id_Professor;
-        Materia = materia;
+        this.id_Professor = id_Professor;
+        this.materia = materia;
     }
 
+    // Getterrs
     public int getId_Professor() {
-        return Id_Professor;
+        return id_Professor;
     }
 
     public String getMateria() {
-        return Materia;
+        return materia;
     }
 }
