@@ -6,7 +6,7 @@ public class Aluno extends Pessoa {
     // Constructor
     public Aluno(String nome, int idade, int id_Aluno) {
         super(nome, idade);
-        id_Aluno = id_Aluno;
+        this.id_Aluno = id_Aluno;
     }
 
     // Getters

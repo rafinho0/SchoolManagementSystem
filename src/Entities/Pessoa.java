@@ -6,6 +6,8 @@ abstract class Pessoa {
 
     // Constructor
     public Pessoa(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
     }
 
     // Getter

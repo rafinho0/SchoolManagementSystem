@@ -3,14 +3,14 @@ package Entities;
 public class Curso {
     private int id_Curso;
     private String nome;
-    private int duracao;
+    private int duracaoMeses;
     private Professor professor;
 
     // Constructor
-    public Curso(int id_Curso, String nome, int duracao, Professor professor) {
+    public Curso(int id_Curso, String nome, int duracaoMeses, Professor professor) {
         this.id_Curso = id_Curso;
         this.nome = nome;
-        this.duracao = duracao;
+        this.duracaoMeses = duracaoMeses;
         this.professor = professor;
     }
 
@@ -23,8 +23,8 @@ public class Curso {
         return nome;
     }
 
-    public int getDuracao() {
-        return duracao;
+    public int getDuracaoMeses() {
+        return duracaoMeses;
     }
 
     public Professor getProfessor() {
